@@ -21,3 +21,9 @@ section:before {
 .vh-100 {
     min-height: 100vh;
 }
+
+@media (max-width: 576px) {
+    .tagline{
+        font-size: 1.5rem;
+    }
+}

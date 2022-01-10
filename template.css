@@ -29,14 +29,27 @@ section:before {
     }
 }
 
+.navbar .nav-item {
+  font-size: 2em;
+}
+
 .navbar-brand {
     font-size: 4rem;
     line-height: 2em;
     text-transform: uppercase;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
+  .navbar .nav-item {
+    font-size: 1.25em;
+    text-align: center;
+  }
   .navbar-brand {
     font-size: 2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .navbar .nav-item {
+    font-size: 2em;
   }
 }
 
@@ -46,3 +59,4 @@ section:before {
     height: 100px;
     width: 100px;
 }
+

@@ -31,5 +31,13 @@ section:before {
 
 .navbar-brand {
     font-size: 3rem;
-    font-weight: bold;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+
+.navbar-brand img {
+    border: 2pt solid #FFFFFF;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
